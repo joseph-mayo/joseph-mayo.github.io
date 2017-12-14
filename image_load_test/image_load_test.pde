@@ -3,7 +3,7 @@ int currentFrame = 0;
 PImage[] images = new PImage[numFrames];
     
 void setup() {
-  size(599, 331);
+  size(589, 331);
   frameRate(40);
 
   for (int i = 1; i < numFrames; i++) {
