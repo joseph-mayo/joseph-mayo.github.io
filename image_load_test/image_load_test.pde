@@ -1,21 +1,6 @@
-int numFrames = 22;
-int currentFrame = 0;
-PImage[] images = new PImage[numFrames];
-    
-void setup() {
-  size(2372, 1328);
-  frameRate(40);
-
-  for (int i = 1; i < numFrames; i++) {
-  String pic = "gif" + nf(i, 1) + ".png";
-  images[i] = loadImage(pic);
-  }
-} 
- 
-void draw() { 
-  background(0);
-  currentFrame = (currentFrame+1) % 21;
-  for (int i = 1; i < 22; i++) { 
-    image(images[currentFrame+1], 0,0);
-  }
-}
+fill(random(300),random(40),20);
+rect(20,0,35,35);
+rect(0,35,20,40);
+fill(random(30,70),random(50,80),random(10,40));
+rect(7,7,7,25);
+rect(14,7,7,20);
