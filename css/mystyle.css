@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://i.imgur.com/bBfuhju.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: margin-top;    
+    font-family: 'Stint Ultra Expanded';
+    font-size: 22px;          
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: center;
+    text-align: center;
+}
+
+
+li a {
+    display: block;
+    padding: 8px;
+	color: black;
+    opacity: 0.5;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 200px;
+}
+p {
+	text-align: center;
+}
+.links {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto; 
+	text-align: center;
+	color: black;
+}
+
+a:link {
+    color: black;
+}
+
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+} 
+.image {
+	text-align: center;
+}
+img {
+	margin: auto;
+	max-width: 80%;
+	display:block;
+	
+}
+
+.artssttmt {
+	text-align: center;
+	margin-top: 100px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer .insta {
+	margin-right: 50px;
+	padding-top: 30px;
+	width: 50px
+	height: 50px;
+}
